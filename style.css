@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+#first{
     background-color: lightgray;
     
 }
@@ -24,14 +24,14 @@ body{
     font-weight: lighter;
 }
 
-.sign-in-form{
+.join-form{
     width: 300px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     background:#fff;
     border-radius: 12px;
     padding: 20px;
     margin: 30px auto 0;
-    text-align:center;
+    text-align: center;
 }
 
 .title{
@@ -107,10 +107,7 @@ hr{
 .join-btn:hover{
     background: rgb(240, 247, 250);
 }
-.sp-link{
-    text-decoration: none;
-    color: royalblue;
-}
+
 .link{
     text-decoration: none;
     color: royalblue;
@@ -158,4 +155,53 @@ img{
 .select{
     border: none;
     cursor: pointer;
+}
+
+/*------------------------------------------- sign in page -----------------------------------------------*/
+.content img{
+    margin-left: 3%;
+}
+
+.sign-in-form{
+    width: 300px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    background:#fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto 0;
+    text-align:center;
+}
+.sign-in-form h1, p{
+    text-align: left;
+}
+
+.input-box1{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 280px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.link1{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.join-btn1{
+    width: 300px;
+    height: 48px;
+    background: #fff;
+    border-radius: 24px;
+    border-color: black;
+    font-size: 16px;
+    margin: 16px 0 20px;
+    padding: 0 16px;
+    color: #626466;
+}
+.join-btn1:hover{
+    background: rgba(57, 59, 59, 0.1);
 }
