@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+    
+}
+
+.intro{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.intro img{
+    width: 8%;
+}
+
+.intro h1{
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.sign-in-form{
+    width: 300px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background:#fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto 0;
+    text-align:center;
+}
+
+.title{
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+.input-box{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 280px;
+    height: 5px;
+    border: 1px solid #999;
+    outline: none;
+}
+.terms{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.submit-btn{
+    width: 300px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    font-size: 16px;
+    margin: 16px 0 20px;
+    padding: 0 16px;
+    color: #fff;
+    background:#0a66c2;
+}
+.submit-btn:hover{
+    background: rgba(3, 28, 136, 0.87);
+    cursor: pointer;
+}
+
+span{
+    padding-left: 6px;
+    padding-top: -30px;
+}
+.photo{
+    padding-top: -200px;
+}
+
+hr{
+    width: 80%;
+    margin-left: 30px;
+}
+.or{
+    margin: -11px auto 10px;
+
+    background: #fff;
+    width: 30px;
+}
+
+.join-btn{
+    width: 300px;
+    height: 48px;
+    background: #fff;
+    border-radius: 24px;
+    border-color: #0a66c2;
+    border-style: solid;
+    font-size: 16px;
+    margin: 16px 0 20px;
+    padding: 0 16px;
+    color: #0a66c2;
+}
+.photo{
+    width: 8%;
+}
+.join-btn:hover{
+    background: rgb(240, 247, 250);
+}
+.sp-link{
+    text-decoration: none;
+    color: royalblue;
+}
+.link{
+    text-decoration: none;
+    color: royalblue;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    color: black;
+    font-size: 13px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 8%;
+}
+.text{
+    margin-left: -18px;
+}
+.col{
+    padding: 10px;
+}
+.col a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+}
+
+.select{
+    border: none;
+    cursor: pointer;
+}
