@@ -52,6 +52,7 @@
 .terms{
     font-size: 12px;
     font-weight: lighter;
+    text-align: center;
 }
 
 .submit-btn{
@@ -68,6 +69,9 @@
 .submit-btn:hover{
     background: rgba(3, 28, 136, 0.87);
     cursor: pointer;
+}
+.choice{
+    text-align: center;
 }
 
 span{
@@ -189,6 +193,9 @@ img{
 .link1{
     text-decoration: none;
     color: royalblue;
+    position: relative;
+    margin-top: 8px;
+    display: inline;
 }
 
 .join-btn1{
@@ -204,4 +211,27 @@ img{
 }
 .join-btn1:hover{
     background: rgba(57, 59, 59, 0.1);
+}
+
+@media only screen and (max-width: 700px){
+    .content img{
+        margin-top: 10px;
+        width: 25%;
+    }
+    .sign-in-form{
+        margin-top: -10px;
+        box-shadow: none;   
+    }
+    .sign-in-form h1{
+        font-size: 50px;
+    }
+    .link1{
+        text-align: left;
+    }
+    footer{
+        display: none;
+    }
+    .row{
+        display: none;
+    }
 }
