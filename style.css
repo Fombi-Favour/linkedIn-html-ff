@@ -5,7 +5,7 @@
 }
 
 #first{
-    background-color: lightgray;
+    background-color: #F3F2EF;
     
 }
 
@@ -126,7 +126,7 @@ hr{
     width: 100%;
     background: #fff;
 }
-.list{
+.footer-list{
     display: flex;
     flex-wrap: wrap;
     height: auto;
@@ -135,19 +135,19 @@ hr{
     margin: 0 auto;
     list-style: none;
 }
-.item{
-    display: flex;
+.footer-item{
+    display: inline-block;
     flex-shrink: 0;
     justify-content: center;
     padding: 8px;
     position: relative;
     text-align: left;
 }
-.item img{
+.footer-item img{
     width: 20%;
     height: 70%;
 }
-.item a{
+.footer-item a{
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
 }
