@@ -132,24 +132,32 @@ hr{
     height: auto;
     justify-content: flex-start;
     min-height: 50px;
-    margin: 0 auto;
+    margin: 4px auto;
     list-style: none;
 }
 .footer-item{
-    display: inline-block;
+    display: flex;
     flex-shrink: 0;
     justify-content: center;
-    padding: 8px;
+    padding: 4px;
     position: relative;
     text-align: left;
+}
+.text{
+    padding: 8px 0 8px 24px;
 }
 .footer-item img{
     width: 20%;
     height: 70%;
 }
-.footer-item a{
+.footer-link{
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+    overflow: hidden;
+    margin: 1px;
 }
 .select{
     border: none;
