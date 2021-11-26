@@ -309,4 +309,7 @@ img{
     .row1{
         display: none;
     }
+    footer{
+        display: none;
+    }
 }
