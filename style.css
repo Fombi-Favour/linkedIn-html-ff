@@ -160,11 +160,12 @@ hr{
     margin: 1px;
 }
 .select{
+    color: rgba(0, 0, 0, 0.6);
     border: none;
     cursor: pointer;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1161px) and (min-width: 769px){
     #first{
         background: #fff;
     }
@@ -178,7 +179,7 @@ hr{
         font-size: 22px;
     }
     .join-form{
-        margin-top: -10px;
+        margin-top: 10px;
         box-shadow: none;
         width: 90%;
     }
@@ -189,8 +190,11 @@ hr{
         font-size: 12px;
     }
     .submit-btn{
-        margin-top: 5px;
+        margin-top: 20px;
         padding-top: 10px;
+    }
+    .footer{
+        display: none;
     }
 }
 
